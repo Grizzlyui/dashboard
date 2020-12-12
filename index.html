@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>My Dashboard</title>
 </head>
-<body>
-    <section>
-        <form action="https://www.google.com/search">            
-            <input type="text" id="google" name="q" placeholder="google search">
+<body>    
+    <section class="content-container">
+        <form action="#" id="searchForm">
+            <input type="text" id="search-box" placeholder="What are we looking for?" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+            <div id="choice-container">
+                
+                <input type="radio" id="google-radio" name="choices" value="google" checked>
+                <label for="google">google</label>
+                
+                <input type="radio" id="youtube-radio" name="choices" value="youtube">
+                <label for="google">youtube</label>
+                
+                <input type="radio" id="reddit-radio" name="choices" value="reddit">
+                <label for="google">reddit</label>  
+                
+                <input type="radio" id="takealot-radio" name="choices" value="takealot">
+                <label for="takealot">takealot</label>  
+                
+            </div>
+            <button>Submit</button>
         </form>
-        <form action="https://www.youtube.com/results">
-            <input type="text" id="youtube" name="search_query" placeholder="youtube search">
-        </form>
-        <form action="https://www.reddit.com/search">
-            <input type="text" id="reddit" name="q" placeholder="reddit search">
-        </form>
-        <form action="https://www.takealot.com/all">
-            <input type="text" id="takealot" name="qsearch" placeholder="takealot search">
-        </form>
-    </section>    
+    </section>
+    <script src="app.js"></script>
 </body>
 </html>

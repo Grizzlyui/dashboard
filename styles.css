@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(102, 102, 102);
+    text-align: center;
+}
+
+
+.content-container {
+    
+}
+
+#searchForm {
+    
+}
+
+#search-box {
+    margin-bottom: 20px;
+    padding: 5% 20%;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: 0px 0.5em 0.5em -0.4em #1a1a1a;
+}
+
+#search-box:focus {
+    outline: 0;
+    
+}
+
+#choice-container {
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+    padding:0.5em 1em;
+    border-radius: 1.5em;
+    border: 1px solid white;
+    box-shadow: 0px 0.5em 0.5em -0.4em #1a1a1a;
+}
