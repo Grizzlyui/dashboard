@@ -14,7 +14,7 @@ searchForm.addEventListener('submit', (e) => {
         window.location = `https://www.reddit.com/search/?q=${searchBox.value}`; 
     }  
     if (choice.value === "pinterest") {     
-        window.location = `https://pinterest.com/search/pins/?q=${searchBox.value}`; 
+        window.location = `https://za.pinterest.com/search/pins/?q=${searchBox.value}`; 
     }     
     searchBox.value = '';
 });   
