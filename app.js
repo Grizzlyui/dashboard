@@ -13,8 +13,8 @@ searchForm.addEventListener('submit', (e) => {
     if (choice.value === "reddit") {     
         window.location = `https://www.reddit.com/search/?q=${searchBox.value}`; 
     }  
-    if (choice.value === "takealot") {     
-        window.location = `https://www.takealot.com/all?_sb=${searchBox.value}`; 
+    if (choice.value === "pinterest") {     
+        window.location = `https://pinterest.com/search/pins/?q=${searchBox.value}`; 
     }     
     searchBox.value = '';
 });   
